@@ -12,7 +12,7 @@ It demonstrates:
 
 
 ## Project Structure
-    ```
+\`\`\`bash 
 cypress-automation/
 │── cypress/
 │ ├── e2e/ # Test cases
@@ -34,7 +34,7 @@ cypress-automation/
 ├── cypress.config.js # Cypress configuration
 ├── package.json
 └── README.md
-
+\`\`\`  
 ---
 
 ## Prerequisites
