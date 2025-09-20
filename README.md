@@ -13,27 +13,23 @@ It demonstrates:
 
 ## Project Structure
 
-cypress-automation/
-│── cypress/
-│ ├── e2e/ # Test cases
-│ │ ├── login.cy.js
-│ │ ├── product.cy.js
-│ │ └── checkout.cy.js
-│ │
-│ ├── pages/ # Page Object Models
-│ │ ├── loginPage.js
-│ │ ├── productsPage.js
-│ │ └── checkoutPage.js
-│ │
-│ ├── fixtures/ # Test data
-│ │ └── testData.json
-│ │
-│ └── support/ # Cypress support files
-│ └── commands.js
-│
-├── cypress.config.js # Cypress configuration
-├── package.json
-└── README.md
+- **cypress-automation/**
+  - **cypress/**
+    - **e2e/** – Test cases  
+      - `login.cy.js`  
+      - `product.cy.js`  
+      - `checkout.cy.js`  
+    - **pages/** – Page Object Models  
+      - `loginPage.js`  
+      - `productsPage.js`  
+      - `checkoutPage.js`  
+    - **fixtures/** – Test data  
+      - `testData.json`  
+    - **support/** – Cypress support files  
+      - `commands.js`  
+  - `cypress.config.js` – Cypress configuration  
+  - `package.json`  
+  - `README.md`
  
 ---
 
