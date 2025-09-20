@@ -43,7 +43,7 @@ cypress-automation/
    git clone https://github.com/AizaKamal/saucedemo.git
    cd saucedemo
 2. Install dependencies:
-    ``bash
+    ```bash
     npm install
 3. Open Cypress Test Runner (GUI):
     ```bash
@@ -55,17 +55,17 @@ cypress-automation/
 ## Test Scenarios Covered
 
 🔹 Login & Logout
-Verify user can log in with valid credentials.
-Verify user can log out successfully.
+- Verify user can log in with valid credentials.
+- Verify user can log out successfully.
 🔹 Product Selection
-Verify user can add a product to the cart.
+- Verify user can add a product to the cart.
 🔹 Checkout Process
-Verify user can complete the checkout process successfully.
+- Verify user can complete the checkout process successfully.
 
 
 ## Test Data
 Stored in cypress/fixtures/testData.json:
-    ```bash
+
 {
   "username": "standard_user",
   "password": "secret_sauce"
@@ -79,4 +79,4 @@ Stored in cypress/fixtures/testData.json:
 ## Sample Command
 Run only checkout tests in headless mode:
     ```bash
-    npx cypress run --spec "cypress/e2e/checkout.cy.js"
+npx cypress run --spec "cypress/e2e/checkout.cy.js"
